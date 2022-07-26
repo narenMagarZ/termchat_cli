@@ -1,0 +1,32 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.ts",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cli-spinners": "^1.3.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/request": "^2.48.8",
+    "@types/shelljs": "^0.8.11",
+    "@types/uuid": "^8.3.4",
+    "@types/ws": "^8.5.3",
+    "@types/yargs": "^17.0.10",
+    "cli-spinners": "^2.7.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "enquirer": "^2.3.6",
+    "ora": "^6.1.2",
+    "request": "^2.88.2",
+    "rm": "^0.1.8",
+    "shelljs": "^0.8.5",
+    "uuid": "^8.3.2",
+    "ws": "^8.8.1",
+    "yargs": "^17.5.1"
+  },
+  "bin": {
+    "termchat": "bin/index.ts"
+  }
+}
