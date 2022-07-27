@@ -27,7 +27,7 @@ async function InitTermChat(){
 export default InitTermChat
 
 async function checkIfUserUidAlreadyInUse(uid:string):Promise<boolean>{
-    const HTTPSERVER = 'http://127.0.0.1:4000'
+    const HTTPSERVER = 'https://termchat-server.herokuapp.com'
     const apiEnd = HTTPSERVER + `/?id=${uid}`
     return new Promise((resolve)=>{
         request(apiEnd,(err,_response,body)=>{

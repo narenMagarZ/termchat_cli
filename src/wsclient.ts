@@ -5,7 +5,7 @@ import {ReadLine} from 'node:readline'
 import { clog } from "./logcolor";
 
 let client : WebSocket
-const WEBSOCKETSERVER = 'ws://127.0.0.1:4000'
+const WEBSOCKETSERVER = 'ws://termchat-server.herokuapp.com'
 function WsClient(uid:string){
     const log = console.log
     client = new WebSocket(WEBSOCKETSERVER + `/${uid}`)
